@@ -1,4 +1,5 @@
 === fdsPhotoFEED v1.0.0 ===
+
 Contributors: Nurul Ferdous
 Donate link: http://www.sadiqsoft.com/donate/
 Tags: Smugmug, Flickr, Picsa, Photo, Slideshow
@@ -9,6 +10,7 @@ Stable tag: 1.0.0
 A WordPress plugin for grabbing images and image info from SmugMug, Flickr, Picasa etc RSS feeds.
 
 == Description ==
+
 The fdsPhotoFEED class uses the lastRSS class to grab images from a SmugMug, Flickr, Picasa etc RSS feed to display on any wordpress hosted website. It provides access to the image’s title, description, SmugMug, Flickr, Picasa etc page URL, and the image in any size that SmugMug, Flickr, Picasa etc offers.
 
 For backwards compatibility, if this section is missing, the full length of the short description will be used, and
@@ -28,6 +30,7 @@ REQUIREMENTS:
 
 
 == Installation ==
+
 * Download and unzip the latest version of the plug-in.
 * If you have a previous version of fdsPhotoFEED installed,disable it on the WordPress Plugins page.
 * Place the “fdsPhotoFEED” folder in your “wp-content/plugins/” directory (over write the old folder if it exists).
@@ -51,6 +54,7 @@ the directory of the stable readme.txt, so in this case, `/tags/4.3/screenshot-1
 2. This is the second screen shot
 
 == Courtesy ==
+
 Thanks goes to Brian Brigg, Hasin vai and Lenin for there endless support.
 
 `<?php code(); // goes in backticks ?>`
