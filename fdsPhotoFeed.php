@@ -50,40 +50,41 @@ function rss_parse($content)
 	$feed->imageSize = "medium";
 	$feed->thumbnailSize = "square";
 	//$num= $matches[2][0];
-if ($photos = $feed->getImages("$num")){
-	if(strpos($uri,"flickr.com")){
-		foreach ($photos as $photo)
-		{ 
-			$p_content.= "<a href='" . $photo["imageURL"] . "' rel='lightbox2' title='".$photo["title"]."'>";
-			$p_content.= "<img style='border:1px solid #bbb; padding:3px; margin:5px 5px 4px 0px' alt='" . $photo["title"] . "' title='" . $photo["title"] . "' src='" . $photo["thumbnailURL"] . "' />";
-			$p_content.= "</a>";
+	if ($photos = $feed->getImages("$num")){
+		if(strpos($uri,"flickr.com")){
+			foreach ($photos as $photo)
+			{ 
+				$p_content.= "<a href='" . $photo["imageURL"] . "' rel='lightbox2' title='".$photo["title"]."'>";
+				$p_content.= "<img style='border:1px solid #bbb; padding:3px; margin:5px 5px 4px 0px' alt='" . $photo["title"] . "' title='" . $photo["title"] . "' src='" . $photo["thumbnailURL"] . "' />";
+				$p_content.= "</a>";
+			}
+		}else if(strpos($uri,"smugmug.com")){
+			foreach($photos as $photo){
+				$src=explode(' ', $photo['thumbnailURL']);
+				$thumbURL=$src['0'].' width="75" height="75"';
+				$imageURL=substr($src['0'], 0, -10);
+				$imageURL=$imageURL . "-M.jpg";
+				$p_content.= "<a href=$imageURL rel='lightbox2' title='".$photo["title"]."'>";
+				$p_content.= "<img style='border:1px solid #bbb; padding:3px; margin:5px 5px 4px 0px' alt='" . $photo["title"] . "' title='" . $photo["title"] . "' src=$thumbURL />";
+				$p_content.= "</a>";
+				unset($src);
+			}
+		}else if(strpos($uri,".com")){
+			foreach($photos as $photo){
+				$src=explode(' ', $photo['thumbnailURL']);
+				$thumbURL=$src['0'].' width="75" height="75"';
+				$imageURL=$src['0'];
+				$p_content.= "<a href=$imageURL rel='lightbox2' title='".$photo["title"]."'>";
+				$p_content.= "<img style='border:1px solid #bbb; padding:3px; margin:5px 5px 4px 0px' alt='" . $photo["title"] . "' title='" . $photo["title"] . "' src=$thumbURL />";
+				$p_content.= "</a>";
+				unset($src);
 		}
-	}else if(strpos($uri,"smugmug.com")){
-		foreach($photos as $photo){
-			$src=explode(' ', $photo['thumbnailURL']);
-			$thumbURL=$src['0'].' width="75" height="75"';
-			$imageURL=substr($src['0'], 0, -10);
-			$imageURL=$imageURL . "-M.jpg";
-			$p_content.= "<a href=$imageURL rel='lightbox2' title='".$photo["title"]."'>";
-			$p_content.= "<img style='border:1px solid #bbb; padding:3px; margin:5px 5px 4px 0px' alt='" . $photo["title"] . "' title='" . $photo["title"] . "' src=$thumbURL />";
-			$p_content.= "</a>";
-			unset($src);
+		}else{
+			$p_content= "No pictures found\n";
 		}
-	}else if(strpos($uri,".com")){
-		foreach($photos as $photo){
-			$src=explode(' ', $photo['thumbnailURL']);
-			$thumbURL=$src['0'].' width="75" height="75"';
-			$imageURL=$src['0'];
-			$p_content.= "<a href=$imageURL rel='lightbox2' title='".$photo["title"]."'>";
-			$p_content.= "<img style='border:1px solid #bbb; padding:3px; margin:5px 5px 4px 0px' alt='" . $photo["title"] . "' title='" . $photo["title"] . "' src=$thumbURL />";
-			$p_content.= "</a>";
-			unset($src);
-		}
-	}else
-		$p_content= "No pictures found\n";
-	    $content = str_replace($matches[0][0], $p_content, $content);
-		return $content;}
-
+	}
+	$content = str_replace($matches[0][0], $p_content, $content);
+	return $content;
 }
 class photoFEED
 {
