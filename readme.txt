@@ -12,12 +12,12 @@ A WordPress plugin for grabbing images and image info from SmugMug, Flickr, Pica
 The fdsPhotoFEED class uses the lastRSS class to grab images from a SmugMug, Flickr, Picasa etc RSS feed to display on any wordpress hosted website. It provides access to the images title, description, SmugMug, Flickr, Picasa etc page URL, and the image in any size that SmugMug, Flickr, Picasa etc offers.
 
 FEATURES:
-1. It can fetch photos from SmugMug.
-2. It can fetch photos from Flickr.
-3. It can fetch photos from Picasa & any other RSS feed.
-4. It supports image caching
-5. It supports lightbox2 slideshow with navigation button Prev & Next.
-6. Image Caption is fetched and shown in lightbox2 show
+* It can fetch photos from SmugMug.
+* It can fetch photos from Flickr.
+* It can fetch photos from Picasa & any other RSS feed.
+* It supports image caching
+* It supports lightbox2 slideshow with navigation button Prev & Next.
+* Image Caption is fetched and shown in lightbox2 show
 
 REQUIREMENTS:
 * wp-lightbox2 plugin for lightbox2 show. You may get it from here: `http://zeo.unic.net.my/notes/lightbox2-for-wordpress/`
@@ -34,11 +34,11 @@ Thanks goes to Brian Brigg, Hasin bro and Lenin for there endless support.
 * Insert `{rss uri=yourFeedURLgoesHere limit=10}` (minus the quotes and spaces) in the source of any page or post you want to display the form on.
 
 ==Frequently Asked Questions==
-1. Whic RSS feeds are supported?
+* Whic RSS feeds are supported?
 
 It support Smugmug,Flickr, Picasa and more...
 
-2. Is Lightbox2 supported?
+* Is Lightbox2 supported?
 Yes Lightbox2 is supported here.
 
 ==Screenshots==
