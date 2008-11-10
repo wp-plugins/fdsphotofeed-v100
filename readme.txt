@@ -29,14 +29,16 @@ Thanks goes to Brian Brigg, Hasin vai and Lenin for there endless support.
 ==Installation==
 * Download and unzip the latest version of the plug-in.
 * If you have a previous version of fdsPhotoFEED installed,disable it on the WordPress Plugins page.
-* Place the “fdsPhotoFEED” folder in your `wp-content/plugins/` directory (over write the old folder if it exists).
+* Place the fdsPhotoFEED folder in your `wp-content/plugins/` directory (over write the old folder if it exists).
 * Activate fdsPhotoFEED on the WordPress Plugins page.
 * Insert `{rss uri=yourFeedURLgoesHere limit=10}` (minus the quotes and spaces) in the source of any page or post you want to display the form on.
 
 ==Frequently Asked Questions==
-=Whic RSS feeds are supported?=
+1. Whic RSS feeds are supported?
+
 It support Smugmug,Flickr, Picasa and more...
-=Is Lightbox2 supported?=
+
+2. Is Lightbox2 supported?
 Yes Lightbox2 is supported here.
 
 ==Screenshots==
