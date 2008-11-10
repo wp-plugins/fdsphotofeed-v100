@@ -23,7 +23,7 @@ REQUIREMENTS:
 * wp-lightbox2 plugin for lightbox2 show. You may get it from here: `http://zeo.unic.net.my/notes/lightbox2-for-wordpress/`
 
 COURTESY:
-Thanks goes to Brian Brigg, Hasin vai and Lenin for there endless support.
+Thanks goes to Brian Brigg, Hasin bro and Lenin for there endless support.
 
 
 ==Installation==
