@@ -1,6 +1,6 @@
 === fdsPhotoFEED v1.0.0 ===
 Contributors: Nurul Ferdous
-Donate link: http://www.nexarticles.com/donate/
+Donate link: http://www.sadiqsoft.com/donate/
 Tags: Smugmug, Flickr, Picsa, Photo, Slideshow
 Requires at least: 2.0.2
 Tested up to: 2.3
