@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: fdsPhotoFeed
-Plugin URI: http://ferdous.wordpress.com/
+Plugin URI: http://ferdous.wordpress.com/2008/11/08/fdsphotofeed-v100-released/
 Description: A plug-in that Fetch given RSS feeds and parse to show it, You can use it in any post of any page. It's an all-in-one plugin for parsing any photo feed!
 Author: Nurul Ferdous
 Version: 1.0.0 
