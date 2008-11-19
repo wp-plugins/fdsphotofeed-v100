@@ -49,7 +49,7 @@ Alternatively you can leave the limit blank like this:
 
 **COURTESY:**
 
-Thanks goes to **Brian Brigg,Hasin Hayder and Lenin** for their endless support.
+Thanks goes to [Brian Brigg](http://www.seismictalk.com/ "A noble man") [Hasin Hayder](http://hasin.wordpress.com/ "My Hero") and [Lenin](http://lenin9l.wordpress.com "My Friend") for their endless support.
 
 ==Installation==
 * Download and unzip the latest version of the plug-in.
