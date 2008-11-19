@@ -13,9 +13,7 @@ A WordPress plugin for grabbing images and image info from SmugMug, Flickr, Pica
 The fdsPhotoFEED plugin uses the lastRSS class to grab images from a SmugMug, Flickr, Picasa etc RSS feed to display on any wordpress hosted website. It provides access to the images title, description, SmugMug, Flickr, Picasa etc page URL, and the image in any size that SmugMug, Flickr, Picasa etc offers.
 
 **USAGE:**
-you can do it from any of your post or page. you can set any RSS feed like SmugMug, Picasa, Flickr etc with a limit of how many photos you want in your post/page. You need to
-
-keep in mind that you need to assign to things there:
+you can do it from any of your post or page. you can set any RSS feed like SmugMug, Picasa, Flickr etc with a limit of how many photos you want in your post/page. You need to keep in mind that you need to assign to things there:
 
        1. rss uri = feed location
        2. limit = number of photos to be shown
