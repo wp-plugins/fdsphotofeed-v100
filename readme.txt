@@ -46,7 +46,7 @@ Alternatively you can leave the limit blank like this to get all the photos
 
 **REQUIREMENTS:**
 
-* wp-lightbox2 plugin for lightbox2 show. You may get it from here: `http://zeo.unic.net.my/notes/lightbox2-for-wordpress/`
+* wp-lightbox2 plugin for lightbox2 show. You may get it from [HERE](http://zeo.unic.net.my/notes/lightbox2-for-wordpress/ "wplightbox2 plugin")
 
 **COURTESY:**
 
