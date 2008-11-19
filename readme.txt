@@ -27,7 +27,7 @@ Alternatively you can leave the limit blank like this:
 `{rss uri=http://seismictalk.smugmug.com/hack/feed.mg?Type=nicknameRecentPhotos&Data=SeismicTalk&format=rss200 limit=5}`
 2. Plublish your post/page.
 
-[Note: You may set a limit or leave it blank to retreive all photos]
+[ Note: You may set a limit or leave it blank to retreive all photos ]
 
 FEATURES:
 	* It can fetch photos from SmugMug.
@@ -53,7 +53,6 @@ COURTESY:
 
 ==Frequently Asked Questions==
 	* Whic RSS feeds are supported?
-
 	It support Smugmug,Flickr, Picasa and more...
 
 	* Is Lightbox2 supported?
