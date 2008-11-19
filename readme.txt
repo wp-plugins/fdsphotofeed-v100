@@ -23,8 +23,9 @@ keep in mind that you need to assign to things there:
 the plugin will replace only the text within the post/page which is encoded with a curly brace {} with resulted photos. The remaindered text will be same.
 `{rss uri=http://seismictalk.smugmug.com/hack/feed.mg?Type=nicknameRecentPhotos&Da ta=SeismicTalk&format=rss200 limit=5}`
 
-Alternatively you can leave the limit blank like this: 
-`{rss uri=flickr/picasa/smugmug_rss_feed_location limit=}` to get all the photos.
+Alternatively you can leave the limit blank like this to get all the photos
+
+`{rss uri=flickr/picasa/smugmug_rss_feed_location limit=}`
 
 1. Add your RSS Feed in the body of your post or page in the following format:
 
