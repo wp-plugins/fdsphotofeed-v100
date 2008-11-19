@@ -1,7 +1,7 @@
 ===fdsPhotoFEED v1.0.0===
 Contributors: Nurul Ferdous
 Donate link: http://www.sadiqsoft.com/donate/
-Tags: Smugmug, Flickr, Picsa, Photo, Slideshow
+Tags: SmugMug, Flickr, Picasa, Photo, Slideshow
 Requires at least: 2.0.2
 Tested up to: 2.6.3
 Stable tag: 1.0.0
@@ -41,7 +41,7 @@ REQUIREMENTS:
 	* wp-lightbox2 plugin for lightbox2 show. You may get it from here: `http://zeo.unic.net.my/notes/lightbox2-for-wordpress/`
 
 COURTESY:
-Thanks goes to Brian Brigg,Hasin Hayder and Lenin for there endless support.
+	Thanks goes to Brian Brigg,Hasin Hayder and Lenin for there endless support.
 
 
 ==Installation==
