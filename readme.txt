@@ -30,12 +30,12 @@ Alternatively you can leave the limit blank like this:
 [ Note: You may set a limit or leave it blank to retreive all photos ]
 
 FEATURES:
-	* It can fetch photos from SmugMug.
-	* It can fetch photos from Flickr.
-	* It can fetch photos from Picasa & any other RSS feed.
-	* It supports image caching
-	* It supports lightbox2 slideshow with navigation button Prev & Next.
-	* Image Caption is fetched and shown in lightbox2 show
+* It can fetch photos from SmugMug
+* It can fetch photos from Flickr
+* It can fetch photos from Picasa & any other RSS feed
+* It supports image caching
+* It supports lightbox2 slideshow with navigation button Prev & Next
+* Image Caption is fetched and shown in lightbox2 show
 
 REQUIREMENTS:
 	* wp-lightbox2 plugin for lightbox2 show. You may get it from here: `http://zeo.unic.net.my/notes/lightbox2-for-wordpress/`
