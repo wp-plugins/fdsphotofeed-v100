@@ -27,7 +27,7 @@ Alternatively you can leave the limit blank like this to get all the photos
 
 `{rss uri=flickr/picasa/smugmug_rss_feed_location limit=}`
 
-1. Add your RSS Feed in the body of your post or page in the following format:
+1. Add your RSS Feed in the body of your post or page in the following format
 
 `{rss uri=http://seismictalk.smugmug.com/hack/feed.mg?Type=nicknameRecentPhotos&Data=SeismicTalk&format=rss200 limit=5}`
 
